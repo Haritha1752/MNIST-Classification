@@ -1,6 +1,6 @@
 # MNIST-Classification
 ## Overview
-This project demonstrates a simple neural network implementation for **image classification** on the **MNIST handwritten digit dataset** . The objective is to classify images into 10 categories, specifically digits (0-9) for MNIST or objects for CIFAR-10, using a **Convolutional Neural Network (CNN)**.
+This project demonstrates a simple neural network implementation for **image classification** on the **MNIST handwritten digit dataset** . The objective is to classify images into 10 categories, specifically digits (0-9) for MNIST.
 
 ---
 
