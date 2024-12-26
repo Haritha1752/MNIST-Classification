@@ -28,9 +28,6 @@ The task involves building a neural network using frameworks like **TensorFlow**
 
 ## Dataset
 - **MNIST**: Contains 70,000 grayscale images of handwritten digits (0-9) with a resolution of 28x28 pixels.
-- **CIFAR-10**: Contains 60,000 RGB images (32x32) of 10 classes such as airplanes, cars, birds, cats, etc.
-
-You can choose either dataset for this implementation.
 
 ---
 
@@ -47,7 +44,7 @@ You can choose either dataset for this implementation.
 ## Model Architecture
 The model uses a **Convolutional Neural Network (CNN)** with the following structure:
 
-1. **Input Layer**: Accepts input images of size 28x28 (MNIST) or 32x32x3 (CIFAR-10).
+1. **Input Layer**: Accepts input images of size 28x28 (MNIST).
 2. **Convolutional Layer 1**:
    - Filters: 32
    - Kernel Size: 3x3
@@ -119,7 +116,7 @@ The model is evaluated using:
 ---
 
 ## Conclusion
-This project successfully implemented a simple CNN for MNIST/CIFAR-10 classification. Key highlights include:
+This project successfully implemented a simple CNN for MNIST classification. Key highlights include:
 - Use of Adam optimizer with a learning rate of 0.001.
 - Regularization techniques (Batch Normalization and Dropout) to improve model generalization.
 - Visualization of training and validation loss to monitor model performance.
